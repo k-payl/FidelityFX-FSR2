@@ -310,7 +310,7 @@ static Fsr2ShaderBlobDX12 fsr2GetAutogenReactivePassPermutationBlobByIndex(uint3
     }
 }
 
-Fsr2ShaderBlobDX12 fsr2GetPermutationBlobByIndex(FfxFsr2Pass passId, uint32_t permutationOptions) {
+Fsr2ShaderBlobDX12 fsr2GetPermutationBlobByIndexDX(FfxFsr2Pass passId, uint32_t permutationOptions) {
 
     bool isWave64 = FFX_CONTAINS_FLAG(permutationOptions, FSR2_SHADER_PERMUTATION_FORCE_WAVE64);
     bool is16bit = FFX_CONTAINS_FLAG(permutationOptions, FSR2_SHADER_PERMUTATION_ALLOW_FP16);

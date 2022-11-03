@@ -58,7 +58,7 @@ typedef enum Fs2ShaderPermutationOptionsDX12 {
 } Fs2ShaderPermutationOptionsDX12;
 
 // Get a DX12 shader blob for the specified pass and permutation index.
-Fsr2ShaderBlobDX12 fsr2GetPermutationBlobByIndex(FfxFsr2Pass passId, uint32_t permutationOptions);
+Fsr2ShaderBlobDX12 fsr2GetPermutationBlobByIndexDX(FfxFsr2Pass passId, uint32_t permutationOptions);
 
 #if defined(__cplusplus)
 }
