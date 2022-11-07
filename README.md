@@ -19,7 +19,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.jpg)
 
 AMD FidelityFX Super Resolution 2 (FSR 2) is an open source, high-quality solution for producing high resolution frames from lower resolution inputs.
 
